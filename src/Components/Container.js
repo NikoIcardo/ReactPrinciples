@@ -1,5 +1,4 @@
 import React from 'react'; 
-import PropsVState from './PropsVState';
 
 const Container = props => {
   return (

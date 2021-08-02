@@ -4,16 +4,16 @@ import Container from './Container';
 import Card from './Card';
 
 // Props and State code to demonstrate concept if code is examined.
-const Child = props => {
-  return <GrandChild value={props.value}/>; 
-};
+// const Child = props => {
+//   return <GrandChild value={props.value}/>; 
+// };
 
-const GrandChild = props => {
-  return <h1>{props.value}</h1>
-};
+// const GrandChild = props => {
+//   return <h1>{props.value}</h1>
+// };
 
 const PropsVState = () => {
-  const [value, setValue] = useState(1); 
+  // const [value, setValue] = useState(1); 
 
   return (
     <Container id="propsVState" title="Props Vs. State">
