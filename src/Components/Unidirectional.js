@@ -30,7 +30,7 @@ const Unidirectional = () => {
         </Card>
         <Card className="ml-10">
           <p className="leading-relaxed mb-4">
-            This input is part of the view. An action of entering text will update the state of the value inside of the input and the state will
+            This input is part of the view. An action of entering text will update the state tied to the input and then the state will
             update the value of the input and the text below it.   
           </p>
           <input
