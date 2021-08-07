@@ -21,7 +21,7 @@ const UseRef = () => {
           a key difference between a reference and a state value.  
           <br/><br/>
           Another important use case for refs is that we may assign them to the ref property of components like was done above for the Uncontrolled component.
-          In the card to the right, a reference is assigned as the value of the input's ref property. This reference then points exactly at the 
+          In the card to the right, a reference is assigned as the value of the input's ref property. This reference then points exactly at the DOM element. 
         </p>
       </Card>
       <Card className="ml-8">
